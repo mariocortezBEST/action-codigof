@@ -2,13 +2,13 @@ name:"hola mundo"
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   deploy-codigofacilito:
     runs-on: ubuntu-latest
     steps:
-       uses: actions/checkout@v4
+       
        -run: echo "Hacemos pull del codigo"    
        -run: echo "correr migraciones"
        -run: echo "Generar binario"
