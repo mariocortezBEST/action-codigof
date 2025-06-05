@@ -2,7 +2,7 @@ name: "hola mundo"
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   deploy-codigofacilito:
