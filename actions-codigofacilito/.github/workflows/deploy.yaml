@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        
-       -run: echo "Hacemos pull del codigo"    
-       -run: echo "correr migraciones"
-       -run: echo "Generar binario"
-       -run: "Publicar version"
+       - run: echo "Hacemos pull del codigo"    
+       - run: echo "correr migraciones"
+       - run: echo "Generar binario"
+       - run: echo  "Publicar version"
